@@ -27,32 +27,49 @@ namespace PracticaAreas
 
         private void BtnRec_Click(object sender, RoutedEventArgs e)
         {
-            int numero1 =
-                int.Parse(txt1.Text);
-            int numero2 =
-                int.Parse(txt2.Text);
+            double numero1 =
+                double.Parse(txt1.Text);
+            double numero2 =
+                double.Parse(txt2.Text);
 
-            int resultado1 =
+            double resultado1 =
                 numero1 * numero2;
             resultadoR.Text = resultado1.ToString();
         }
 
         private void BtnTri_Click(object sender, RoutedEventArgs e)
         {
-            int numero1 =
-                int.Parse(txt3.Text);
-            int numero2 =
-                int.Parse(txt4.Text);
+            double numero1 =
+                double.Parse(txt3.Text);
+            double numero2 =
+                double.Parse(txt4.Text);
 
-            int resultado2 =
+            double resultado2 =
                 (numero1 * numero2) / 2;
             resultadoT.Text = resultado2.ToString();
         }
 
         private void BtnCir_Click(object sender, RoutedEventArgs e)
         {
-            int numero1 =
-                int.Parse(txt5.Text);
+            double numero1 =
+                double.Parse(txt5.Text);
+
+            double resultado3 =
+                (Math.PI * (numero1 * numero1));
+            resultadoC.Text = resultado3.ToString();
+        }
+
+        private void BtnTra_Click(object sender, RoutedEventArgs e)
+        {
+            double numero1 =
+                double.Parse(txt6.Text);
+            double numero2 =
+                double.Parse(txt7.Text);
+            double numero3 =
+                double.Parse(txt8.Text);
+            double resultado4 =
+                ((numero1 + numero2) * numero3) / 2;
+            resultadoTr.Text = resultado4.ToString();
         }
     }
 }

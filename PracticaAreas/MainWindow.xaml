@@ -35,7 +35,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="228,301,0,0" TextWrapping="Wrap" Text="base menor:" VerticalAlignment="Top" />
         <TextBox x:Name="txt6" HorizontalAlignment="Left" Height="23" Margin="31,321,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="txt7" HorizontalAlignment="Left" Height="23" Margin="228,321,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Calcular" HorizontalAlignment="Left" Margin="420,321,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="BtnTra_Click" x:Name="btnTra" Content="Calcular" HorizontalAlignment="Left" Margin="420,321,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBlock HorizontalAlignment="Left" Margin="570,301,0,0" TextWrapping="Wrap" Text="área:" VerticalAlignment="Top"/>
         <TextBlock x:Name="resultadoTr" HorizontalAlignment="Left" Margin="570,321,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="31,350,0,0" TextWrapping="Wrap" Text="altura:" VerticalAlignment="Top" />
