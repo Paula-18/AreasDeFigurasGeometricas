@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="31,29,0,0" TextWrapping="Wrap" Text="Áreas de Figuras Geométricas" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe Print"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,29,0,0" TextWrapping="Wrap" Text="Áreas de Figuras Geométricas" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe Script"/>
         <TextBlock HorizontalAlignment="Left" Margin="31,68,0,0" TextWrapping="Wrap" Text="Rectángulo:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="31,86,0,0" TextWrapping="Wrap" Text="base:" VerticalAlignment="Top" />
         <TextBlock HorizontalAlignment="Left" Margin="228,86,0,0" TextWrapping="Wrap" Text="altura:" VerticalAlignment="Top" />
